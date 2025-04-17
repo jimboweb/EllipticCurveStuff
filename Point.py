@@ -8,3 +8,5 @@ class Point:
         else:
             self.x = x
             self.y = y
+    def to_string(self):
+        return(str(self.x)+", "+str(self.y))
